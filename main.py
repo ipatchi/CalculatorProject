@@ -273,7 +273,7 @@ def unit_convert(): #Menu for converting between different units
 
 
 def menu(): #Main menu function
-    #reset_file()
+    reset_file() #Resets the file upon login since asked for as objective, could easily be removed and allowed for cross-session
     inp = ""
     while inp != "4": #Main menu system
         print("---------------------")
